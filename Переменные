@@ -28,4 +28,14 @@ $f = array(
 
 echo $f[1] // выведет на экран Flame 
 
+
+// ниже ассоциативный массив. Вместо порядковых индексов присваиваются ассоциации
+$g = array(
+    'name' => 'Ray', // индекс name
+    'surname' => 'Tugalov', // индекс surname
+    'age' => 20, // индекс age
+    'byer' => 1996 // byer
+); 
+echo $g ['surname']; // выдаст Tugalov
+
 ?>
