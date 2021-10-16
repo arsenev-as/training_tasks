@@ -1,1 +1,7 @@
 
+<?php
+	echo 'Привет, мир!<br/>';
+    echo 'Привет, мир!!!!<br/><br/><br/><br/>';
+
+?>
+ Cегодня <?php echo date('d.m.y h:i');?>
