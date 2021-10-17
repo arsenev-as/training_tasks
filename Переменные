@@ -38,4 +38,26 @@ $g = array(
 ); 
 echo $g ['surname']; // выдаст Tugalov
 
+// ниже многомерный ассоциативный массив. В одной из ячеек тоже массив.
+$f = array(
+    'name' => 'Ray', // индекс name
+    'surname' => 'Tugalov', // индекс surname
+    'age' => 20, // индекс age
+    'byer' => 1996, // byer
+    'education' => array('scool in 2003','cooege in 2013')
+    ,
+    // массив 2-го уровня из 2-х элементов
+    'married' = > false, // Буллево значение true или false. По сути заполнили профиль человека
+    'smoking' = > false,
+    'geek' => true
+);
+ 
+echo $f ['education'][0];// выведет 0-ой элемент массива 2-го порядка. 'scool in 2003'
+
+
+$j = false; // буллев тип, boolean, bool
 ?>
+
+
+</body>
+</html>
