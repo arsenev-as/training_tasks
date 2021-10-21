@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ПРИВЕТ МИР</title>  <!--название страницы, как будет отображаться вверху во вкладке -->
+    </head>
+    
+    <body>
+        Привет <a href = "https://www.google.com/">МИР</a>!!! <!--href - атрибут, который указывает куда ведет ссылка -->
+    </body>
+</html>
